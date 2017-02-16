@@ -1,0 +1,43 @@
+// atriangulo.cpp : Defines the entry point for the console application.
+
+
+
+// Nombre:
+// Autor:
+// Fecha:
+
+// Declarar librerias
+#include "stdafx.h"  //Libreria del Visual C++ stdio}
+#include <iostream>  // Entrada y salida cin, cout
+#include "conio.h"   //Para manejar la entrada y getch()
+
+
+// Declara el teclado y el monitor como la salida y entrada estandard
+   using namespace std;
+
+// El cuerpo principal del programa
+void main()
+{
+   float area,base,altura; // Declaración de variables
+   // Ingreso de datos con mensaje y solicitud de datos
+   
+   
+      cout<<"Ingrese base: ";
+      cin>>base;
+	  cout<<"Ingrese altura: ";
+      cin>>altura;
+   
+  
+    if((base<=0)||(altura<=0))
+		cout<<"ingresar nuevo numero:error ";
+	else
+	{
+   
+   // Proceso: Calculo
+      area=(base*altura)/2;
+   // Salida de la respuesta o resultado
+      cout<<"El area es: "<<area;
+   }
+   getch(); // Detiene la pantalla
+}
+//Finaliza el cuerpo principal
