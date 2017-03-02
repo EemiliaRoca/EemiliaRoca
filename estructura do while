@@ -1,0 +1,24 @@
+// estructurasrepetitivas.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+int main()
+{
+  int valido = 0000;
+  int numero;
+ 
+  do
+  {
+    cout<< "Introduzca un numero: "<<endl;
+    cin>>numero;
+    if (numero != valido) 
+		cout<<"numero No valido!"<<endl;
+  }
+  while (numero != valido);
+         cout<<"numero valido"<<endl;
+ 
+  return 0;
+}
