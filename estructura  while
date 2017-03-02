@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+	int numero;
+	cout<<"digite un numero:"<<endl;
+	cin>>numero;
+
+	while (numero!=0)
+	{ 
+		if (numero>0)
+	    cout<<"el numero es positivo"<<endl;
+		else
+		cout<<"el numero es negativo"<<endl;
+		cout<<"digite otro numero (0 para salir)"<<endl;
+	    cin>>numero;
+	}
+	return 0;
+}
